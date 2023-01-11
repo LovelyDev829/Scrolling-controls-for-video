@@ -22,15 +22,15 @@ html, body {
   margin-right:auto;
 }
 .scrollable .content .section {
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:288px;
+  padding-bottom:287px;
 }
 .scrollable .content .section h1 {
   font-size:30px;
 }
 .scrollable .content .video {
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:288px;
+  padding-bottom:287px;
   pointer-events:none;
 }
 canvas {
@@ -53,4 +53,10 @@ canvas {
   display:inline-block;
   font-size:50px;
   font-weight:bold;
+}
+
+.vue-scrubbable-video {
+  width: 359px;
+  margin-left: auto;
+  margin-right: auto;
 }
